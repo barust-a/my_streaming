@@ -1,0 +1,58 @@
+body {
+  background-image: url("../img/pattern.png");
+}
+
+li {
+display: inline;
+padding-left: 10px;
+margin: 0;
+}
+
+ul.navbar {
+ list-style: none;
+padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 23px;
+  transition: 0.2s;
+}
+
+#conn {
+  position: absolute;
+right: 29px;
+}
+
+#reg {
+  position: absolute;
+right: 200px;
+}
+
+#logo {
+  height: 200px;
+  position: absolute;
+  top: -8px;
+  max-width: 285px;
+  left: 41%;
+  width: 34%;
+}
+.navbar {
+  background-color: #334558;
+  background-color: #334558;
+position: absolute;
+width: 98.5%;
+top: 22px;
+margin-right: 5px;
+}
+
+ul.navbar::after {
+  clear: both;
+}
+
+.navbar a:hover {
+  background-color: #F79E00;
+  padding: 15px;
+}
